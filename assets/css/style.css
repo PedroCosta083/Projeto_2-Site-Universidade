@@ -1,0 +1,78 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css);
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: azure;
+}
+
+.menu {
+    margin: 5px;
+}
+
+.menu a {
+    color: blue;
+    text-decoration: none;
+}
+
+.capa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page2-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submit-container input {
+    width: 25%;
+}
+
+.submit-container textarea {
+    width: 25%;
+    height: 10vh;
+}
